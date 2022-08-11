@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url('../img/bg.jpg') fixed;
+}
+
+header {
+    background: url('../img/header.jpg') no-repeat;
+    padding: 2%;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Oxanium', cursive;
+    font-size: 3rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 2% 0 0 2%;
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 2.5rem;
+}
+
+#gamesCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gameCard {
+    background-color: rgba(60,52,132,0.8);
+    width: 30%;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.gameImg {
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.gamePlatform {
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.titleMeta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.gameMetacritic {
+    border: 2px solid green;
+    padding: 1%;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.5rem;
+}
+
+.gameCard p {
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.gameDate, .gameGenres, .screenTxt, .zoneImg {
+    margin: 5% 0 0 2%;
+}
+
+.gameDate::before {
+    content: "Date de sortie: ";
+}
+
+.gameGenres::before {
+    content: "Genres: ";
+}
+
+.zoneImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameScreenshots {
+    border: 1px solid whitesmoke;
+    width: 70%;
+    margin: 3%;
+}
+
+#platformCards, #achievementsCards, #additionsCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.platformCard, .achievementsCard, .dlcCard {
+    background-color: rgba(60,52,132,0.8);
+    width: 30%;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.achievementsName {
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 2.5rem;
+}
+
+.divDivider {
+    width: 80%;
+    margin: 2% auto;
+    border: 1px solid whitesmoke;
+}
+
+.achievementsDescription, .dlcDate, .dlcNote {
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.5rem;
+    padding: 5%;
+}
+
+.dlcDate::before {
+    content: "Date de sortie: ";
+}
+
+.dlcNote::before {
+    content: "Note: ";
+}
+
+.dlcImg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#contactUs {
+    text-align: center;
+    font-size: 4rem;
+    border: 2px solid whitesmoke;
+    width: 20%;
+    margin: 2% auto;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form label {
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 2rem;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 2% 0;
+}
+
+form input[type="submit"] {
+    width: 50%;
+    padding: 2%;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 2% 0;
+    font-family: 'Oxanium', cursive;
+    font-size: 2rem;
+    color: whitesmoke;
+    background-color: rgba(60,52,132,0.8);
+}
+
+#identity {
+    margin: 2%;
+    border: 1px solid whitesmoke;
+}
+
+#identity {
+    color: whitesmoke;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.6rem;
+    padding: 1%;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #060e15;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(60,52,132,0.8);
+	border-radius: 50px;
+}
+
+.hide {
+    display: none;
+}
