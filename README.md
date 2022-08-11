@@ -1,7 +1,7 @@
 ![alt text](https://www.cmc.ca/wp-content/uploads/2019/07/cad-header-background-2-300x91.jpg)
 
 # Video-Games-DB
-A site that shows the must-have games, new games released, achievements, DLC, and a contact form that saves locally and personalizes the welcome message.
+A website that shows the must-have games, new games released, achievements, DLC, and a contact form that saves locally and personalizes the welcome message.
 
 Presentation video here: https://youtu.be/qeXCJXoluaI
 
