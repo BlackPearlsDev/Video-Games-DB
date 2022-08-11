@@ -2,6 +2,7 @@
 
 # Video-Games-DB
 A website that shows the must-have games, new games released, achievements, DLC, and a contact form that saves locally and personalizes the welcome message.
+!!! Not responsive made in desktop, no tablets and smartphones version (no time) !!!
 
 Presentation video here: https://youtu.be/qeXCJXoluaI
 
